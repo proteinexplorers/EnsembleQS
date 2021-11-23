@@ -7,7 +7,7 @@ It uses a meta-learning algorithm to learn how to best combine the predictions f
 The benefit of stacking is that it can harness the capabilities of a range of well-performing models on a classification task and make predictions that have better performance than any single model in the ensemble. 
 
 
-**Implemented in Scikit-learn Library. **
+**Implemented in Scikit-learn Library.**
 
 
 Scikit-learn is an open source machine learning library for Python. You have a number of options when it comes to installing scikit-learn, depending on your needs:
