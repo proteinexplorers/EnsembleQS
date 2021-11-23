@@ -21,7 +21,7 @@ The benefit of stacking is that it can harness the capabilities of a range of we
 **Feature set 3:** CTD (Composition, Transistion, and Distribution) based features.
 
 
-**Feature set 3:** Conjoint Triad based features. 
+**Feature set 4:** Conjoint Triad based features. 
 
 
 **We recommend the users to use **ifeature package** for feature extraction.**
