@@ -78,6 +78,7 @@ from sklearn.linear_model import LinearRegression
 
 **Features considered to develop EnsemblQS**
 
+The featuressets for running the code was provided as .CSV (Considering the 25MB data limit on github trail), which should be converted into .xlsx before compiling. 
 
 **Feature set 1:** Aminoacid composition (AAC), Dipeptide composition (DPC), Dipeptide Deviation from Expected Mean (DEM), and tripeptide composition (TPC).
 
