@@ -8,13 +8,13 @@ The benefit of stacking is that it can harness the capabilities of a range of we
 
 **Dependencies and packages**
 
-python==3.6+
-lightgbm==2.1.1
-matplotlib
-seaborn
-numpy
-pandas
-scikit-learn
+python==3.6+,
+lightgbm==2.1.1,
+matplotlib,
+seaborn,
+numpy,
+pandas,
+scikit-learn,
 
 
 **Implemented in Scikit-learn Library.**
