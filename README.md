@@ -1,10 +1,26 @@
-**EnsemblQS: An Ensemble of SVM, DT, and NB models with hard voting classfier, capable of predicting quorum sensing peptides with 96% accuracy.**
+**EnsemblQS: An Ensemble  models with hard voting classfier, capable of predicting quorum sensing peptides with 94% accuracy.**
 
-Stacking or Stacked Generalization is an ensemble machine learning algorithm.
+Stacking or Stacked Generalization is an ensemble machine learning methodology.
 
-It uses a meta-learning algorithm to learn how to best combine the predictions from two or more base machine learning algorithms.
+It uses a meta-learning algorithm to learn how to best combine the predictions from multiple machine learning algorithms.
 
 The benefit of stacking is that it can harness the capabilities of a range of well-performing models on a classification task and make predictions that have better performance than any single model in the ensemble. 
+
+**Dependencies and packages**
+
+python==3.6+
+
+lightgbm==2.1.1
+
+matplotlib
+
+seaborn
+
+numpy
+
+pandas
+
+scikit-learn
 
 
 **Implemented in Scikit-learn Library.**
@@ -100,13 +116,6 @@ iFeature is a comprehensive Python-based toolkit for generating various numerica
 **Web server:** https://ifeature.erc.monash.edu/
 
 
-
-**Result from ensemble model**
-
-
-The accuracy of EnsemblQS is 8%, 8%, 3 %, 10%, and 7 % higher than those resulting from using the SVM, DT, RF, KNN, and GNB baseline models,thus highlighting the superiority of our proposed model. The comparisons to the previous works demonstrate that the EnsemblQS model performed better than the existing QS peptide prediction tools in terms of both MCC and accuracy. When evaluated on an independent dataset of 40 QSP peptides, the EnsemblQs showed 97% accuracy with MCC and auROC values of 0.91 and 0.94 respectively. 
-
-
 **On the base of all the above efforts, we conclude that our EnsemblQS model adds some new contributions in the area of predicting QS peptides:**
 
 
@@ -116,6 +125,6 @@ The accuracy of EnsemblQS is 8%, 8%, 3 %, 10%, and 7 % higher than those resulti
 • The Hyperparameter tuning improves the performance of baseline models. 
 
 
-• To the best of our knowledge, we introduced the first stacked ensemble model namely EnsemblQS (SVM+DT+NB) to predict QS peptides, which provide higher accuracy (96%) and specifity (98%), compared to baseline models and existing state of art QS peptide predicting tools. 
+• To the best of our knowledge, we introduced the first stacked ensemble model namely EnsemblQS to predict QS peptides, which provide higher accuracy (94%) and specifity, compared to baseline models and existing state of art QS peptide predicting tools. 
 
 
